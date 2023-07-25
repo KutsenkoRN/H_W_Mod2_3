@@ -1,4 +1,6 @@
-﻿namespace H_W_Mod2_3
+﻿using System;
+
+namespace H_W_Mod2_3
 {/// <summary>
 /// Base.
 /// </summary>
@@ -26,14 +28,9 @@
         public int Weight { get; }
 
         /// <summary>
-        /// Compare.
+        /// gets string.
         /// </summary>
-        /// <param name="vehicle">weight.</param>
-        /// <returns>weight return.</returns>
-        public int CompareTo(Vehicle vehicle)
-        {
-            return this.Weight - vehicle.Weight;
-        }
+        public string Brand { get; internal set; }
 
         /// <summary>
         /// Move.

@@ -28,11 +28,6 @@ namespace H_W_Mod2_3
         }
 
         /// <summary>
-        /// Gets brend.
-        /// </summary>
-        public string Brand { get; }
-
-        /// <summary>
         /// Gets num of doors.
         /// </summary>
         public int NumOfDoors { get; }
